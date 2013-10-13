@@ -1,4 +1,4 @@
-# revision 23252
+# revision 30387
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-metapost
 Epoch:		1
-Version:	20120224
+Version:	20131013
 Release:	1
-Summary:	MetaPost (and Metafont) drawing packages
+Summary:	MetaPost and Metafont packages
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
@@ -16,6 +16,7 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-metapo
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-basic
 Requires:	texlive-automata
 Requires:	texlive-bbcard
 Requires:	texlive-blockdraw_mp
@@ -29,6 +30,7 @@ Requires:	texlive-expressg
 Requires:	texlive-exteps
 Requires:	texlive-featpost
 Requires:	texlive-feynmf
+Requires:	texlive-feynmp-auto
 Requires:	texlive-garrigues
 Requires:	texlive-gmp
 Requires:	texlive-hatching
@@ -42,8 +44,8 @@ Requires:	texlive-mfpic
 Requires:	texlive-mfpic4ode
 Requires:	texlive-mp3d
 Requires:	texlive-mpcolornames
-Requires:	texlive-mpgraphics
 Requires:	texlive-mpattern
+Requires:	texlive-mpgraphics
 Requires:	texlive-piechartmp
 Requires:	texlive-roex
 Requires:	texlive-slideshow
@@ -51,7 +53,6 @@ Requires:	texlive-splines
 Requires:	texlive-suanpan
 Requires:	texlive-textpath
 Requires:	texlive-threeddice
-Requires:	texlive-collection-basic
 
 %description
 TeXLive collection-metapost package.
@@ -66,12 +67,3 @@ TeXLive collection-metapost package.
 %build
 
 %install
-
-
-%changelog
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780503
-- Update to latest release.
-- Import texlive-collection-metapost
-- Import texlive-collection-metapost
-
