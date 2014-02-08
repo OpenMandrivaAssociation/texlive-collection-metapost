@@ -7,7 +7,7 @@
 Name:		texlive-collection-metapost
 Epoch:		1
 Version:	20120224
-Release:	1
+Release:	2
 Summary:	MetaPost (and Metafont) drawing packages
 Group:		Publishing
 URL:		http://tug.org/texlive
