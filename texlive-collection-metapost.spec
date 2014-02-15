@@ -1,4 +1,4 @@
-# revision 30387
+# revision 32455
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-metapost
 Epoch:		1
-Version:	20131013
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	MetaPost and Metafont packages
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -47,6 +47,7 @@ Requires:	texlive-mpcolornames
 Requires:	texlive-mpattern
 Requires:	texlive-mpgraphics
 Requires:	texlive-piechartmp
+Requires:	texlive-repere
 Requires:	texlive-roex
 Requires:	texlive-slideshow
 Requires:	texlive-splines
