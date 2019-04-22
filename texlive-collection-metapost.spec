@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-metapost
 Epoch:		1
-Version:	20180303
-Release:	3
+Version:	20180925
+Release:	1
 Summary:	MetaPost and Metafont packages
 Group:		Publishing
 URL:		http://tug.org/texlive
