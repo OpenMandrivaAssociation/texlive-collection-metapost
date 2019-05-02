@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-metapost
 Epoch:		1
-Version:	20180925
+Version:	20190309
 Release:	1
 Summary:	MetaPost and Metafont packages
 Group:		Publishing
