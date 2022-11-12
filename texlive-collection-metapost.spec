@@ -1,18 +1,12 @@
-# revision 32455
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-metapost
 Epoch:		1
-Version:	20190309
+Version:	64878
 Release:	1
 Summary:	MetaPost and Metafont packages
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-metapost.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-metapost.r64878.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -63,7 +57,7 @@ TeXLive collection-metapost package.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
