@@ -1,6 +1,6 @@
 Name:		texlive-collection-metapost
 Epoch:		1
-Version:	71319
+Version:	72550
 Release:	1
 Summary:	MetaPost and Metafont packages
 Group:		Publishing
